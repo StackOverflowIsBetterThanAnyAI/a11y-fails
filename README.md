@@ -12,5 +12,5 @@
 - 3x required inputs are not communicated correctly
 - 2x no autocomplete for input
 - 3x clickable space is too small
-- 4x insufficient color contrast
+- 5x insufficient color contrast
 - 1x aria-attribute on wrong element
