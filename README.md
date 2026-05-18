@@ -14,3 +14,4 @@
 - 3x clickable space is too small
 - 5x insufficient color contrast
 - 1x aria-attribute on wrong element
+- 7x text is not in a landmark
