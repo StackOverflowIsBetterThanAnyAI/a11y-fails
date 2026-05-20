@@ -41,7 +41,7 @@
 ## 2.1
 
 - 1x list has bad child elements
-- 5x text outside a landmark
+- 10x text outside a landmark
 - 1x link cannot be reached by keyboard
 - 1x link cannot be activated by keyboard
 - 4x link relies on color alone
