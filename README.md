@@ -1,24 +1,63 @@
 # a11y-fails
 
-A demo page with intentionally bad accessibility.
+## Root
 
-## How to use
-Just clone the repo and open the index.html in a browser of your choice and try to find the a11y fails. No build tools, npm or such shenanigans needed.
-An improved version of the page can be found in the /improved subfolder.
+- 1x wrong lang value
+- 6x insufficient clickable space
+- 1x body has no max width
 
-You can also use these links on GitHub pages. Some tools like lighthouse don't work locally, so this might be helpful.
+## 1.1.1
 
-https://karstenlenz.github.io/a11y-fails/
+- 1x wrong lang value
+- 1x bad heading order
+- 1x image has no alt text
+- 1x image wrongfully marked as decorative
+- 1x ASCII art has no alternative text
+- 1x link does not describe its purpose
+- 1x link has no accessible name
+- 1x button has no accessible name
+- 1x body has no max width
 
-https://karstenlenz.github.io/a11y-fails/improved/
+## 1.3
 
-I added a list of a11y issues in this markdown file with the corresponding WCAG 2.1 criteria:
+- 1x bad heading order
+- 1x bad focus order
+- 2x label is not connected to label
+- 1x text outside a landmark
+- 2x insufficient color contrast
+- 1x body has no max width
 
-https://github.com/karstenlenz/a11y-fails/blob/main/improved/a11y-error-list.md
+## 1.4
 
-If you find any other issues, please let me know. 
+- 1x bad heading order
+- 2x label is not connected to label
+- 1x text outside a landmark
+- 3x insufficient clickable space
+- 4x link relies on color alone
+- 9x insufficient color contrast
+- 1x body has no max width
 
-I'm planning to expand this repo to cover more issues in the future. If you have any feedback please send me a message or leave a GitHub star :)
+## 2.1
 
-## Attribution
-Images are taken from unsplash. Roboto font is taken from google fonts.
+- 1x list has bad child elements
+- 5x text outside a landmark
+- 1x link cannot be reached by keyboard
+- 1x link cannot be activated by keyboard
+- 1x focus trap
+- 1x body has no max width
+
+## 2.4
+
+- 1x no title
+- 1x no mechanism to skip navigation
+- 5x text outside a landmark
+- 4x button has no focus indicator
+- 1x bad focus order
+- 1x body has no max width
+
+# 3.3
+
+- 4x text outside a landmark
+- 2x input has no label
+- 2x required field not visually marked as required
+- 2x bad error message
