@@ -18,6 +18,7 @@
 - 1x button has no accessible name
 - 1x body has no max width
 - 2x insufficient clickable space
+- 4x insufficient line height
 
 ## 1.3
 
@@ -37,16 +38,19 @@
 - 4x link relies on color alone
 - 9x insufficient color contrast
 - 1x body has no max width
+- 2x insufficient line height
 
 ## 2.1
 
 - 1x list has bad child elements
+- 1x bad heading order
 - 10x text outside a landmark
 - 1x link cannot be reached by keyboard
 - 1x link cannot be activated by keyboard
 - 4x link relies on color alone
 - 1x focus trap
 - 1x body has no max width
+- 2x insufficient line height
 
 ## 2.4
 
@@ -56,6 +60,7 @@
 - 4x button has no focus indicator
 - 1x bad focus order
 - 1x body has no max width
+- 2x insufficient line height
 
 # 3.3
 
@@ -64,3 +69,5 @@
 - 2x required field not visually marked as required
 - 2x bad error message
 - 1x body has no max width
+- 2x aria attribute on bad element
+- 1x visible text must be included in accessible name
