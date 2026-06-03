@@ -60,7 +60,7 @@
 # 3.3
 
 - 4x text outside a landmark
-- 2x input has no label
+- 4x input has no label
 - 2x required field not visually marked as required
 - 2x bad error message
 - 1x body has no max width

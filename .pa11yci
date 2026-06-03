@@ -1,0 +1,21 @@
+{
+    "defaults": {
+        "timeout": 50000,
+        "standard": "WCAG2AA",
+        "chromeLaunchConfig": {
+            "args": [
+                "--no-sandbox",
+                "--disable-setuid-sandbox"
+            ]
+        }
+    },
+    "urls": [
+        "http://localhost:1234/",
+        "http://localhost:1234/1_1_1_non-text-content.html",
+        "http://localhost:1234/1_3_adaptable.html",
+        "http://localhost:1234/1_4_distinguishable.html",
+        "http://localhost:1234/2_1_keyboard.html",
+        "http://localhost:1234/2_4_navigable.html",
+        "http://localhost:1234/3_3_input_assistance.html"
+    ]
+}
